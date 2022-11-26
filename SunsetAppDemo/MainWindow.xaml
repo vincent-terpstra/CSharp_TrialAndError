@@ -1,0 +1,23 @@
+﻿<Window x:Class="SunsetAppDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SunsetAppDemo"
+        mc:Ignorable="d"
+        Loaded="MainWindow_OnLoaded"
+        Title="MainWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button x:Name="PreviousImageButton" Click="LoadPreviousAsync" Padding="15" Margin="15">Previous</Button>
+            <Button x:Name="SunInformationButton"  Padding="15" Margin="15" Click="LoadSunInformation" >Sun Information</Button>
+            <Button x:Name="NextImageButton" Click="LoadNextAsync" Padding="15" Margin="15">Next</Button>
+        </StackPanel>
+        <Image Grid.Row="1" x:Name="ComicImage" Margin="15"/>
+    </Grid>
+</Window>

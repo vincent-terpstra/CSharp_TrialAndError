@@ -1,0 +1,16 @@
+﻿<Window x:Class="SunsetAppDemo.SunInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:SunsetAppDemo"
+        mc:Ignorable="d"
+        Title="SunInfo" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Button x:Name="LoadSunInfo" Margin="20" Click="LoadSunInfoAsync">Load Sun Info</Button>
+            <TextBlock x:Name="SunriseText" Margin="20"/>
+            <TextBlock x:Name="SunsetText" Margin="20"/>
+        </StackPanel>
+    </Grid>
+</Window>

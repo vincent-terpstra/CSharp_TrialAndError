@@ -1,0 +1,12 @@
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\SunsetLibrary\bin\Debug\net6.0\SunsetLibrary.deps.json
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\SunsetLibrary\bin\Debug\net6.0\SunsetLibrary.dll
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\SunsetLibrary\bin\Debug\net6.0\SunsetLibrary.pdb
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\SunsetLibrary\obj\Debug\net6.0\SunsetLibrary.csproj.AssemblyReference.cache
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\SunsetLibrary\obj\Debug\net6.0\SunsetLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\SunsetLibrary\obj\Debug\net6.0\SunsetLibrary.AssemblyInfoInputs.cache
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\SunsetLibrary\obj\Debug\net6.0\SunsetLibrary.AssemblyInfo.cs
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\SunsetLibrary\obj\Debug\net6.0\SunsetLibrary.csproj.CoreCompileInputs.cache
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\SunsetLibrary\obj\Debug\net6.0\SunsetLibrary.dll
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\SunsetLibrary\obj\Debug\net6.0\refint\SunsetLibrary.dll
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\SunsetLibrary\obj\Debug\net6.0\SunsetLibrary.pdb
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\SunsetLibrary\obj\Debug\net6.0\ref\SunsetLibrary.dll
