@@ -10,7 +10,7 @@ public class EmailValidator
     
     public Result<ValidEmail> Validate(string email)
     {
-        var result = Result<string>.Create(email)
+        var result = new Result<string>(email)
             .Ensure(str => str.Split("@").Length == 2, new Error(IsMissingAtSymbol))
             .Ensure(e => e.Length > minLength, new Error(EmailLength))
             .Map(str => new ValidEmail(str!));
