@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="Assets\tgBtn_right.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Assets\img_contact.png" />
+      <Content Include="Assets\img_contact.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Assets\img_home.png" />
+      <Content Include="Assets\img_home.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Assets\img_map.png" />
+      <Content Include="Assets\img_map.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Assets\img_message.png" />
+      <Content Include="Assets\img_message.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Assets\img_setting.png" />
+      <Content Include="Assets\img_setting.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Assets\img_signout.png" />
+      <Content Include="Assets\img_signout.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Assets\tgBtn_default.png" />
+      <Content Include="Assets\tgBtn_default.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Assets\tgBtn_right.png" />
+      <None Remove="Fonts\Roboto-Light.ttf" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Fonts" />
+    </ItemGroup>
+
+</Project>

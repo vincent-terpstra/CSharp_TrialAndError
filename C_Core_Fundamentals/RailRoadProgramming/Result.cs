@@ -1,7 +1,4 @@
-﻿using System.ComponentModel.Design.Serialization;
-using Xunit.Sdk;
-
-namespace RangeExtensions.RailRoadProgramming;
+﻿namespace RangeExtensions.RailRoadProgramming;
 
 public class Result
 {
