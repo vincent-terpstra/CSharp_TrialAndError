@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="BenchmarkDotNet, Version=0.13.2.0, Culture=neutral, PublicKeyToken=aa0ca2f9092cefc4">
+        <HintPath>..\..\..\.nuget\packages\benchmarkdotnet\0.13.2\lib\net6.0\BenchmarkDotNet.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BenchmarkDotNet" Version="0.13.2" />
+    </ItemGroup>
+
+</Project>

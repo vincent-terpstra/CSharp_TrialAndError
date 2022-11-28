@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernUI", "ModernUI\Modern
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationDemo", "NavigationDemo\NavigationDemo.csproj", "{50B7F1D9-7C53-4CB1-B161-4E9ED6F7AE04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Benchmarks\Benchmarks.csproj", "{0452C9F8-ECF6-4FEC-AF33-2146A72FA095}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{50B7F1D9-7C53-4CB1-B161-4E9ED6F7AE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50B7F1D9-7C53-4CB1-B161-4E9ED6F7AE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50B7F1D9-7C53-4CB1-B161-4E9ED6F7AE04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0452C9F8-ECF6-4FEC-AF33-2146A72FA095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0452C9F8-ECF6-4FEC-AF33-2146A72FA095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0452C9F8-ECF6-4FEC-AF33-2146A72FA095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0452C9F8-ECF6-4FEC-AF33-2146A72FA095}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

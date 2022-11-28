@@ -1,3 +1,11 @@
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0-windows\Assets\tgBtn_right.png
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0-windows\Assets\img_contact.png
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0-windows\Assets\img_home.png
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0-windows\Assets\img_map.png
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0-windows\Assets\img_message.png
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0-windows\Assets\img_setting.png
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0-windows\Assets\img_signout.png
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0-windows\Assets\tgBtn_default.png
 C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0-windows\NavigationDemo.exe
 C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0-windows\NavigationDemo.deps.json
 C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0-windows\NavigationDemo.runtimeconfig.json
@@ -6,6 +14,7 @@ C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0
 C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\obj\Debug\net6.0-windows\NavigationDemo.csproj.AssemblyReference.cache
 C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\obj\Debug\net6.0-windows\MainWindow.g.cs
 C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\obj\Debug\net6.0-windows\NavigationDemo_Content.g.cs
 C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\obj\Debug\net6.0-windows\NavigationDemo_MarkupCompile.cache
 C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\obj\Debug\net6.0-windows\NavigationDemo_MarkupCompile.lref
 C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\obj\Debug\net6.0-windows\MainWindow.baml
@@ -19,12 +28,3 @@ C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\obj\Debug\net6.0
 C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\obj\Debug\net6.0-windows\NavigationDemo.pdb
 C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\obj\Debug\net6.0-windows\NavigationDemo.genruntimeconfig.cache
 C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\obj\Debug\net6.0-windows\ref\NavigationDemo.dll
-C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0-windows\Assets\img_contact.png
-C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0-windows\Assets\img_home.png
-C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0-windows\Assets\img_map.png
-C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0-windows\Assets\img_message.png
-C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0-windows\Assets\img_setting.png
-C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0-windows\Assets\img_signout.png
-C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0-windows\Assets\tgBtn_default.png
-C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\obj\Debug\net6.0-windows\NavigationDemo_Content.g.cs
-C:\Users\vdter\RiderProjects\C_Core_Fundamentals\NavigationDemo\bin\Debug\net6.0-windows\Assets\tgBtn_right.png
