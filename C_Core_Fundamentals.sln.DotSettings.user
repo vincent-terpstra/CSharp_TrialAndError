@@ -1,5 +1,8 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d940c13a_002D8873_002D48a1_002Da94f_002Dc54448604ecb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ValidatingANullEmailReturnsErrorResult" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=129764d8_002D413e_002D4fe9_002Dba1d_002D32a614760490/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d940c13a_002D8873_002D48a1_002Da94f_002Dc54448604ecb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ValidatingANullEmailReturnsErrorResult" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::98AA3C45-C4E4-403A-A128-6F075CDE7C00::net6.0::RangeExtensions.RailRoadProgramming.EmailValidatorTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
