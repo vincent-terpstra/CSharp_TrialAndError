@@ -1,6 +1,4 @@
-﻿using Xunit;
-
-namespace RangeExtensions.TypeConversion;
+﻿namespace C_Core_Fundamentals.TypeConversion;
 
 public class ImplicitMain
 {

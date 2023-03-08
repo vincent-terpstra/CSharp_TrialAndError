@@ -1,8 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
-using HashidsNet;
-using Xunit;
+﻿using HashidsNet;
 
-namespace RangeExtensions.HashIds;
+namespace C_Core_Fundamentals.HashIds;
 
 public class HashIdTest
 {
@@ -16,7 +14,7 @@ public class HashIdTest
     [Theory]
     [InlineData(100)]
     [InlineData(101)]
-    public void HashingIdsIsReversable(int input)
+    public void HashingIdsCanBeDecoded(int input)
     {
         //Arrange
         //Act
@@ -30,7 +28,7 @@ public class HashIdTest
     [Theory]
     [InlineData(100)]
     [InlineData(101)]
-    public void HashingIdsProducesSameResult(int input)
+    public void HashingMultipleIdsProducesSameResult(int input)
     {
         //Arrange
 

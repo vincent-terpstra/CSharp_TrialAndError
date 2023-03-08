@@ -1,10 +1,13 @@
-﻿using System;
-using Xunit;
-
-namespace DataAccess.Tests.Calculator;
-
+﻿namespace C_Core_Fundamentals.Calculator;
 public class CalculatorTests
 {
+    private readonly Calculator Calculator;
+    
+    public CalculatorTests()
+    {
+        Calculator = new Calculator();
+    }
+    
     [Fact]
     public void Subtract_ValuesShouldCalculate()
     {
@@ -14,7 +17,7 @@ public class CalculatorTests
         //Note this is only testing that Subtract returns -5
         
         //Act
-        double actual = Tests.Calculator.Calculator.Subtract(x, y);
+        double actual = Calculator.Subtract(x, y);
         
         //Assert
         Assert.Equal(expected, actual);
@@ -31,7 +34,7 @@ public class CalculatorTests
         //Arrange
         
         //Act
-        double actual = Tests.Calculator.Calculator.Add(x, y);
+        double actual = Calculator.Add(x, y);
         //Assert
         Assert.Equal(expected, actual);
     }
@@ -47,7 +50,7 @@ public class CalculatorTests
         //Arrange
         
         //Act
-        double actual = Tests.Calculator.Calculator.Multiply(x, y);
+        double actual = Calculator.Multiply(x, y);
         //Assert
         Assert.Equal(expected, actual);
     }
@@ -62,7 +65,7 @@ public class CalculatorTests
         //Arrange
         
         //Act
-        double actual = Tests.Calculator.Calculator.Divide(x, y);
+        double actual = Calculator.Divide(x, y);
         //Assert
         Assert.Equal(expected, actual);
     }
@@ -79,6 +82,6 @@ public class CalculatorTests
         //Assert
         //note normally dividing by zero returns double.PositiveInfinity
         //throwing is specific to my Calculator.Divide
-        Assert.Throws<DivideByZeroException>(() =>Tests.Calculator.Calculator.Divide(x, y));
+        Assert.Throws<DivideByZeroException>(() => Calculator.Divide(x, y));
     }
 }

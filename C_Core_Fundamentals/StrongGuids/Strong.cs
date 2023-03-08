@@ -1,13 +1,9 @@
 ﻿using StronglyTypedIds;
 
-namespace RangeExtensions.StrongGuids;
+namespace C_Core_Fundamentals.StrongGuids;
 
 [StronglyTypedId(converters: StronglyTypedIdConverter.SystemTextJson)]
-public partial struct StrongId
-{
-}
-
-
+public partial struct StrongId { }
 
 public class Strong
 {

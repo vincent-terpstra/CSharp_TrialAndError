@@ -1,6 +1,4 @@
-﻿using Microsoft.VisualBasic.CompilerServices;
-
-namespace RangeExtensions.TypeConversion;
+﻿namespace C_Core_Fundamentals.TypeConversion;
 
 public class UserId
 {

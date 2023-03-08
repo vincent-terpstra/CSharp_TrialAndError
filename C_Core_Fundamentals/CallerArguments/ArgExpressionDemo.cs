@@ -4,21 +4,51 @@ namespace C_Core_Fundamentals.CallerArguments;
 
 public class ArgExpressionDemo
 {
-    public static void Test()
+    public static (int number, string argument) Example(int number, [CallerArgumentExpression("number")]string parameter = default)
     {
-        Example(1 + 2);
-        Example(() => 3 + 4);
+        return (number, parameter);
     }
 
-    public static void Example(int number, [CallerArgumentExpression("number")]string parameter = default)
+    public static (int number, string argument) Example(Func<int> number,  [CallerArgumentExpression("number")]string parameter = default)
     {
-        Console.WriteLine(parameter);
-        Console.WriteLine(number);
+        return (number(), parameter);
+    }
+    
+    [Fact]
+    public void ExampleWithSum()
+    {
+        var example = Example(1 + 2);
+        
+        Assert.Equal(3, example.number);
+        Assert.Equal("1 + 2", example.argument);
+    }
+    
+    [Fact]
+    public void ExampleWithFunction()
+    {
+        var example = Example(() => 3 + 4);
+        
+        Assert.Equal(7, example.number);
+        Assert.Equal("() => 3 + 4", example.argument);
     }
 
-    public static void Example(Func<int> number,  [CallerArgumentExpression("number")]string parameter = default)
+    [Fact]
+    public void FileDemoFromAnotherClass()
     {
-        Console.WriteLine(parameter);
-        Console.WriteLine(number());
+        var output = FileDemo.Example();
+        
+        Assert.Equal(38, output.number);
+        Assert.EndsWith(@"C_Core_Fundamentals\C_Core_Fundamentals\CallerArguments\ArgExpressionDemo.cs", output.path);
     }
+    
+    [Fact]
+    public void FileDemoFromFileDemo()
+    {
+        var output = FileDemo.ExampleFromFileDemo();
+        
+        Assert.Equal(18, output.number);
+        Assert.EndsWith(@"C_Core_Fundamentals\C_Core_Fundamentals\CallerArguments\FileDemo.cs", output.path);
+    }
+
+    
 }

@@ -1,4 +1,4 @@
-﻿namespace RangeExtensions.RailRoadProgramming;
+﻿namespace C_Core_Fundamentals.RailRoadProgramming;
 
 public class Error
 {
@@ -6,8 +6,8 @@ public class Error
     {
         Message = message;
     }
-    public static Error None => new Error("No Issue");
-    public static Error NullValue => new Error("Input cannot be null");
+    public static Error None => new("No Issue");
+    public static Error NullValue => new("Input cannot be null");
     
     public String Message { get; }
     

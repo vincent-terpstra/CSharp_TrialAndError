@@ -1,4 +1,4 @@
-﻿namespace RangeExtensions.RailRoadProgramming;
+﻿namespace C_Core_Fundamentals.RailRoadProgramming;
 
 public class Result
 {
@@ -33,9 +33,7 @@ public class Result<T> : Result
 
         Value = value;
     }
-    public Result(Error error) : base(error)
-    {
-    }
+    public Result(Error error) : base(error) { }
 
     public Result<T> Ensure(Func<T, bool> ensureCheck, Error error)
         => IsFailure || ensureCheck(Value) 

@@ -1,6 +1,6 @@
 ﻿using HashidsNet;
 
-namespace RangeExtensions.HashIds;
+namespace C_Core_Fundamentals.HashIds;
 
 public class HashId
 {

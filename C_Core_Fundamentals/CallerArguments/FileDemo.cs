@@ -4,16 +4,17 @@ namespace C_Core_Fundamentals.CallerArguments;
 
 public class FileDemo
 {
-    public static void Example([CallerFilePath]string path = default!, 
+    public static (string path, int number) Example([CallerFilePath]string path = default!, 
         [CallerLineNumber]int number = 0
     )
     {
         Console.WriteLine(path);
         Console.WriteLine(number);
+        return (path, number);
     }
 
-    public static void Test()
+    public static (string path, int number) ExampleFromFileDemo()
     {
-        Example();
+        return Example();
     }
 }

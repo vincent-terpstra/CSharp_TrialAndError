@@ -74,6 +74,6 @@ public static class RegexMain
 
     public static void MatchWithRegex(this string start, string pattern)
     {
-        Console.WriteLine($"{start} IsMatch {pattern} : {System.Text.RegularExpressions.Regex.IsMatch(start, pattern)}");
+        Console.WriteLine($"{start} IsMatch {pattern} : { Regex.IsMatch(start, pattern)}");
     }
 }

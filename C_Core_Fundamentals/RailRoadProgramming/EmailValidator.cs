@@ -1,6 +1,4 @@
-﻿using System.Data;
-
-namespace RangeExtensions.RailRoadProgramming;
+﻿namespace C_Core_Fundamentals.RailRoadProgramming;
 
 public class EmailValidator
 {

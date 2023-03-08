@@ -1,10 +1,9 @@
-﻿namespace RangeExtensions.StrongGuids;
+﻿namespace C_Core_Fundamentals.StrongGuids;
 
 public class StrongGuidDemo
 {
     public static void Run()
     {
-
         CreateStrong(Guid.NewGuid());
     }
 
