@@ -1,5 +1,4 @@
-﻿// ReSharper disable once CheckNamespace
-namespace RangeExtensions;
+﻿namespace C_Core_Fundamentals.RangeExtensions;
 
 public static class RangeExtensions
 {
