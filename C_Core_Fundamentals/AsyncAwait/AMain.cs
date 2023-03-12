@@ -13,7 +13,7 @@ public class AMain
     }
 
     [Fact]
-    public async Task AServiceCreatesAndStartsTask()
+    public async Task AServiceStartsTaskWhenCreated()
     {
         Stopwatch sw = new Stopwatch();
         sw.Start();
