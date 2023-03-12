@@ -17,14 +17,15 @@ public class AService
         _delayedA = GetDelayedA(sw);
     }
     
-    public async Task<A> GetDelayedA(Stopwatch sw)
+
+    public async Task<A> GetDelayedA(Stopwatch sw, string val = "string", int delay = 2000)
     {
-        Console.WriteLine("Before delay: " + sw.ElapsedMilliseconds);
-        await Task.Delay(2000);
+        await Task.Delay(delay);
         return new A(sw)
         {
-            stringValue = "string",
+            stringValue = val,
             longValue = sw.ElapsedMilliseconds
         };
     }
+    
 }
