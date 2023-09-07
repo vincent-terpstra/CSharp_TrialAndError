@@ -69,4 +69,36 @@ public class AMain
         Assert.False(sw.ElapsedMilliseconds < 3200);
         Assert.True(sw.ElapsedMilliseconds > 6000);
     }
+
+    [Fact]
+    public async void Prefer_Configure_Await()
+    {
+        Stopwatch sw = new();
+        sw.Start();
+        AService service = new AService(sw);
+        //recommended configure await will allow any thread to pick up the process
+        var configureTrue = await service.GetDelayedA(sw, "A");
+
+        //recommended configure await will allow any thread to pick up the process
+        var configureFalse = await service.GetDelayedA(sw, "A").ConfigureAwait(false);
+        
+        
+    }
+
+    [Fact]
+    public void Prefer_Get_Awaiter_Get_Result()
+    {
+        Stopwatch sw = new();
+        sw.Start();
+        AService service = new AService(sw);
+        
+        //prefer using getAwaiter.GetResult over .Result
+        // this will preserve stack trace
+        var result = service.GetDelayedA(sw, "B").Result;
+        
+        //prefer using getAwaiter.GetResult over .Result
+        // this will preserve stack trace
+        var AwaiterResult = service.GetDelayedA(sw, "B").GetAwaiter().GetResult();
+    }
+    
 }
