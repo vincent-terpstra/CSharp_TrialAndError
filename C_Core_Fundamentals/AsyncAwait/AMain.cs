@@ -73,16 +73,19 @@ public class AMain
     [Fact]
     public async void Prefer_Configure_Await()
     {
+        var threadId = Thread.CurrentThread.ManagedThreadId;
+        
         Stopwatch sw = new();
         sw.Start();
         AService service = new AService(sw);
-        //recommended configure await will allow any thread to pick up the process
+        
         var configureTrue = await service.GetDelayedA(sw, "A");
 
         //recommended configure await will allow any thread to pick up the process
         var configureFalse = await service.GetDelayedA(sw, "A").ConfigureAwait(false);
+        var threadIdAfterAwait = Thread.CurrentThread.ManagedThreadId;
         
-        
+        Assert.NotEqual(threadId, threadIdAfterAwait);
     }
 
     [Fact]
