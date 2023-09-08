@@ -2,6 +2,6 @@
 
 
 using BenchmarkDotNet.Running;
-using RangeExtensions.LoopingMethods;
+using Benchmarks.Linq;
 
-var summary = BenchmarkRunner.Run<Benchmarks>();
+var summary = BenchmarkRunner.Run<LinqOrderBenchMarks>();

@@ -1,9 +1,8 @@
 ﻿using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using BenchmarkDotNet.Attributes;
-using Microsoft.VisualBasic.CompilerServices;
 
-namespace RangeExtensions.LoopingMethods;
+namespace Benchmarks.LoopingMethods;
 
 
 [MemoryDiagnoser(false)]
